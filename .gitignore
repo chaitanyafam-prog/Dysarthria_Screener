@@ -1,0 +1,17 @@
+# Secrets and local data: never commit these
+.env
+instance/
+*.db
+
+# Environments and caches
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# The screener has its own repository (github.com/chaitanyafam-prog/dysarthria_screening)
+dysarthria_screening/
+
+# Personal notebooks and trained model files
+*.ipynb
+*.pkl
